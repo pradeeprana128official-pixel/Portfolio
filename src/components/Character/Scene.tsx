@@ -73,6 +73,9 @@ const Scene = () => {
             handleResize(renderer, camera, canvasDiv, character)
           );
         }
+      }).catch((err) => {
+        console.error("Failed to load character model:", err);
+        progress.clear();
       });
 
       let mouse = { x: 0, y: 0 },
