@@ -2,6 +2,17 @@
   command = "npm run build"
   publish = "dist"
 
+[[headers]]
+  for = "/Pradeep_Rana_Resume.pdf"
+  [headers.values]
+    Content-Type = "application/pdf"
+    Content-Disposition = "inline"
+
+[[redirects]]
+  from = "/Pradeep_Rana_Resume.pdf"
+  to = "/Pradeep_Rana_Resume.pdf"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
