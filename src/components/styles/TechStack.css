@@ -168,3 +168,29 @@
     padding: 24px 22px 26px;
   }
 }
+
+/* Match the width of the other sections so the fixed social rail
+   never overlaps the cards. */
+.tech-section {
+  width: 1300px;
+  max-width: calc(100% - 160px);
+}
+
+@media only screen and (max-width: 1600px) {
+  .tech-section {
+    width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .tech-section {
+    width: 900px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .tech-section {
+    width: 500px;
+    max-width: var(--cWidth);
+  }
+}
