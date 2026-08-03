@@ -329,3 +329,19 @@
     max-height: 250px;
   }
 }
+/* ── Project description ── */
+.carousel-description {
+  font-weight: 200;
+  color: #adacac;
+  margin: 10px 0 0;
+  font-size: 15px;
+  line-height: 1.65;
+  max-width: 52ch;
+}
+
+@media (max-width: 768px) {
+  .carousel-description {
+    font-size: 14px;
+    max-width: 100%;
+  }
+}
