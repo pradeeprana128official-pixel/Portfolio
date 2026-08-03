@@ -21,6 +21,10 @@ const imageUrls = [
   "/images/kubernetes.webp",
   "/images/postgresql.webp",
   "/images/python.webp",
+  "/images/javascript.webp",
+  "/images/node.webp",
+  "/images/express.webp",
+  "/images/mongo.webp",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(import.meta.env.BASE_URL + url.replace(/^\//, "")));
 
