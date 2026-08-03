@@ -22,7 +22,7 @@ const imageUrls = [
   "/images/postgresql.webp",
   "/images/python.webp",
 ];
-const textures = imageUrls.map((url) => textureLoader.load(url));
+const textures = imageUrls.map((url) => textureLoader.load(import.meta.env.BASE_URL + url.replace(/^\//, "")));
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 
