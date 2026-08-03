@@ -88,20 +88,21 @@ const WhatIDo = () => {
 
             <div className="what-content-in">
               <h3>FULLSTACK ENGINEERING</h3>
-              <h4>Enterprise-Grade Web Applications</h4>
+              <h4>APIs, Microservices &amp; Reactive UIs</h4>
               <p>
-                Building scalable Angular frontends and robust backend services
-                for Dell's OpenManage ecosystem — from reactive UI components
-                to REST APIs serving thousands of concurrent users.
+                Designing REST APIs and microservices in Java, GO and Python,
+                modelling the PostgreSQL and PL/SQL layers beneath them, and
+                building the reactive Angular interfaces that sit on top with
+                Signals, RxJS and strict internationalisation.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Angular &amp; RxJS</div>
+                <div className="what-tags">Angular &amp; Signals</div>
                 <div className="what-tags">TypeScript</div>
                 <div className="what-tags">Java &amp; GO</div>
+                <div className="what-tags">Python</div>
                 <div className="what-tags">REST APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">Microservices</div>
+                <div className="what-tags">PostgreSQL &amp; PL/SQL</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -125,21 +126,22 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DEVOPS &amp; AI TOOLING</h3>
-              <h4>Infrastructure, Automation &amp; AI Workflows</h4>
+              <h3>AI &amp; PLATFORM AUTOMATION</h3>
+              <h4>Agentic Systems, Containers &amp; CI/CD</h4>
               <p>
-                Containerizing services with Docker &amp; Kubernetes, automating
-                CI/CD pipelines, and pioneering AI-assisted development with
-                Devin AI for defect resolution and appliance operations.
+                Building agentic AI workflows that author specs, generate code,
+                review it and resolve defects end to end — plus the Docker,
+                Kubernetes and Jenkins plumbing, live appliance debugging and
+                Robot Framework and JUnit suites that keep them trustworthy.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
+                <div className="what-tags">Agentic AI</div>
+                <div className="what-tags">Devin AI</div>
                 <div className="what-tags">Docker</div>
                 <div className="what-tags">Kubernetes</div>
                 <div className="what-tags">Jenkins CI/CD</div>
-                <div className="what-tags">Linux</div>
-                <div className="what-tags">Devin AI</div>
-                <div className="what-tags">Jira &amp; Git</div>
+                <div className="what-tags">Linux &amp; Git</div>
               </div>
               <div className="what-arrow"></div>
             </div>
