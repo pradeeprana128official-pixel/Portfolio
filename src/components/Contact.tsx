@@ -11,6 +11,14 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
+                href="mailto:pradeeprana128.official@gmail.com"
+                data-cursor="disable"
+              >
+                pradeeprana128.official@gmail.com
+              </a>
+            </p>
+            <p>
+              <a
                 href="https://www.linkedin.com/in/pradeeprana128/"
                 target="_blank"
                 rel="noreferrer"
@@ -19,6 +27,8 @@ const Contact = () => {
                 LinkedIn — pradeeprana128
               </a>
             </p>
+            <h4>Based in</h4>
+            <p>Bangalore, Karnataka, India</p>
             <h4>Education</h4>
             <p>
               M.Tech Computer Science, Indian Institute of Technology (ISM)
@@ -26,6 +36,12 @@ const Contact = () => {
             </p>
             <p>
               B.Tech Computer Science, GBPIET Pauri Garhwal — 2016–2020
+            </p>
+            <h4>Recognition</h4>
+            <p>
+              1st place, all-India Dell sustainability competition · Top 1
+              percentile in GATE · Patent submission for anomaly handling in
+              Dell C-Series rack management
             </p>
           </div>
           <div className="contact-box">
