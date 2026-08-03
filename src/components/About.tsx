@@ -7,12 +7,14 @@ const About = () => {
         <h3 className="title">About Me</h3>
         <p className="para">
           Senior Fullstack Software Engineer with a Master's in Computer Science
-          from IIT Dhanbad and over 3+ years of experience at Dell R&D, Bangalore.
-          I build scalable REST APIs, microservices, and modern Angular frontends
-          for Dell's OpenManage ecosystem. My expertise spans Java, GO, Python,
-          TypeScript, Docker, and Kubernetes. I'm passionate about AI-powered
-          development workflows, solving complex enterprise problems, and
-          continuously pushing the boundaries of what's possible.
+          from IIT (ISM) Dhanbad and 4+ years at Dell R&D, Bangalore. I build
+          scalable REST APIs, microservices and reactive Angular frontends for
+          Dell's OpenManage ecosystem across Java, GO, Python, PL/SQL and
+          TypeScript, backed by Docker, Kubernetes and PostgreSQL. Lately my
+          focus is agentic AI: a 28-agent spec-driven development framework, an
+          OME assistant now shipping to customers, predictive device lifecycle
+          analytics, and an autonomous defect resolver that patches and
+          redeploys live appliances end to end.
         </p>
       </div>
     </div>
