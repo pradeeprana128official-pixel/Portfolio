@@ -21,26 +21,32 @@ const Career = () => {
               <h3>NOW</h3>
             </div>
             <p>
-              Building enterprise Angular frontends (Phoenix Project) with
-              RxJS Signals and i18n. Leading AI-powered defect resolution
-              workflows with Jira and Devin AI for Dell's OpenManage
-              Enterprise ecosystem.
+              Architecting agentic AI systems for Dell's OpenManage ecosystem: a
+              spec-driven framework of 28 specialised agents spanning spec
+              authoring, epic and story decomposition, code generation, automated
+              review and security scanning. Also shipped an AI OME assistant that
+              resolves user queries by invoking live REST APIs, Predictive Device
+              Lifecycle Intelligence for remaining-lifespan forecasting, and an
+              autonomous defect resolver wired into Jira, Git and running
+              appliances.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Software Engineer 2</h4>
-                <h5>Dell R&D, Bangalore</h5>
+                <h4>Enterprise Platform Engineering</h4>
+                <h5>OpenManage Enterprise · Power Manager · Phoenix</h5>
               </div>
-              <h3>2022–24</h3>
+              <h3>2022–NOW</h3>
             </div>
             <p>
-              Implemented REST APIs supporting 5,000+ concurrent users for OME.
-              Designed PostgreSQL schemas and stored procedures for Power Manager
-              Plugin. Built microservices with GO, Docker, and Kubernetes for
-              CMO platform. Managed SQLite database for Volume Binding Service
-              with 99.9% uptime.
+              Shipped REST APIs serving 5,000+ concurrent users, added 80+ aBVT
+              test cases to standardise API validation, and indexed 100,000+ lines
+              of source for AI code assistance. Designed PostgreSQL schemas,
+              functions and stored procedures for the Power Manager Plugin, ran
+              the SQLite schema behind Volume Binding Service at 99.9% uptime,
+              and built reactive Angular interfaces with RxJS, Signals and strict
+              i18n on the Phoenix project.
             </p>
           </div>
           <div className="career-info-box">
@@ -52,9 +58,9 @@ const Career = () => {
               <h3>2020–22</h3>
             </div>
             <p>
-              Published research on Fog Computing for Next-Generation IoT
-              (ScienceDirect). Ranked top 1 percentile in GATE. Top 10 on
-              GeeksforGeeks out of 2,600 students.
+              Published "Fog Computing for Next-Generation Internet of Things",
+              covering IoT architectures, open challenges and future trends.
+              Entered the programme with a top 1 percentile GATE rank.
             </p>
           </div>
           <div className="career-info-box">
@@ -66,9 +72,9 @@ const Career = () => {
               <h3>2016–20</h3>
             </div>
             <p>
-              Built a web-based Faculty Assessment System with team of 4 —
-              Admin, Student, and Faculty dashboards. Strong foundation in
-              algorithms, data structures, and systems programming.
+              Built the foundations — algorithms, data structures, operating
+              systems, databases and C/C++ systems programming — that the backend
+              and platform work still runs on today.
             </p>
           </div>
         </div>
